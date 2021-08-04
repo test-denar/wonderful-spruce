@@ -26,7 +26,6 @@ export default class Body extends React.Component {
     }
 
     render() {
-        console.log(1);
         const page = _.get(this.props, 'page');
         const pageTitle = _.get(page, 'title');
         const config = _.get(this.props, 'config');
