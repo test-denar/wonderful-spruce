@@ -7,7 +7,7 @@ import pageLayouts from '../layouts';
 
 class Page extends React.Component {
     render() {
-        console.log(1);
+        console.log(1)
         const modelName = _.get(this.props, 'page.__metadata.modelName');
         const PageLayout = pageLayouts[modelName];
         if (!PageLayout) {
