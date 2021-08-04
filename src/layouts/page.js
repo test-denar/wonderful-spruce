@@ -6,7 +6,6 @@ import { htmlToReact, withPrefix, markdownify } from '../utils';
 
 export default class Page extends React.Component {
     render() {
-        console.log(1);
         const data = _.get(this.props, 'data');
         const config = _.get(data, 'config');
         const page = _.get(this.props, 'page');
